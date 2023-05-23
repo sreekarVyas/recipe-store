@@ -99,7 +99,6 @@
 	</div>
 	
     <div class="mt-3 container">
-    
     	<%
     		List<Recipe> recipes= GetMyRecipes.getMyRecipes((String) session.getAttribute("uname"));
     	%>
@@ -108,15 +107,11 @@
     		<%
     			if (recipes.size() == 0) {
     		%>
-    		
     				You have not made any recipe contributions yet.
-    		
     		<%
     			} else {
     		%>
-    	
     				My Recipes 
-    		
     		<%
     			}
     		%>
@@ -124,10 +119,8 @@
     	 
 		<div class="row row-cols-1 row-cols-md-3 g-4">
 		<%
-			
 			for (Recipe rp : recipes) {
 		%>
-		
 			<div class="col mb-5">
 				<div class="card">
 		      		<div class="card-body">
@@ -141,7 +134,6 @@
 		      		</div>					
 				</div>
 			</div>	
-			
 		<%
 			}
 		%>	
