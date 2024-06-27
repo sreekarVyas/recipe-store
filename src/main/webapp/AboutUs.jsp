@@ -90,7 +90,7 @@
 	</div>   	
 
     <div class="footer">
-        Made with Love, by CSE B - 2024
+        Made with Love, by CSE A - 2025
     </div> 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

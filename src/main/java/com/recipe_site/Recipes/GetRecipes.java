@@ -16,7 +16,7 @@ public class GetRecipes {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con= DriverManager.getConnection("jdbc:mysql://localhost:3306/recipe-site-db", "root", "");
+			con= DriverManager.getConnection("jdbc:mysql://localhost:3306/recipe-site-db", "root", "Sreekar@0125");
 			PreparedStatement pst= con.prepareStatement("SELECT * FROM recipe_site_recipes");
 			
 			ResultSet rs= pst.executeQuery();
